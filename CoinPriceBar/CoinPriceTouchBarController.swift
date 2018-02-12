@@ -10,7 +10,7 @@ import Cocoa
 
 class CoinPriceTouchBarController: NSViewController {
 
-  private let priceRefreshInterval: TimeInterval = 15
+  private let priceRefreshInterval: TimeInterval = 5
   private let coinPriceTouchBar = CoinPriceTouchBar()
 
   init() {
